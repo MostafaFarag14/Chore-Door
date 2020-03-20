@@ -1,10 +1,10 @@
 body{
-    margin: 0 auto;
-    background-color: midnightblue;
+    background-color: #FFDA85;
+    text-align: center;
 }
 
 header{
-    background-color: rgb(85, 255, 216);
+    background-color: #6FA7B3;
     text-align: center;
 }
 
@@ -17,7 +17,7 @@ div{
     padding: 10px;
 }
 #instructions h2{
-    color: rgb(85, 255, 216);
+    color: #624BB3;
     font-family: monospace;
     margin: 4% auto;
     display: inline;
@@ -26,11 +26,14 @@ div{
 .instructions-number{
     padding-right: 25px;
     font-size: 20px;
-    color: #00ffff;
+    color: #624BB3;
 }
 table , td{
-    color: whitesmoke;
-    margin: 2% auto ;
+    text-align: left;
+    font-weight: bold;
+    color: #624BB3;
+    margin: 2% auto;
+    font-size: 18px;
 }
 
 #doors{
@@ -45,7 +48,7 @@ table , td{
 #result button{
     font-size: larger;
     color: navy;
-    background-color: #e85e2a;
+    background-color: #6FA7B3;
     height: 60px;
     width: 120px;
     border: none;
@@ -53,13 +56,15 @@ table , td{
 }
 
 .info{
+    font-weight: bold;
+    font-size: 18px;
     text-align: left;
-    color: white;
-    margin: 20px ;
+    color: #5f43c1;
+    margin: 20px;
 }
 
 #bestStreak , #currentStreak{
-    background-color: turquoise;
+    background-color: #6FA7B3;
     font-size: 40px;
     font-weight: 1000;
     color: black;
